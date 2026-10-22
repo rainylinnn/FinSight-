@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 安装 uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          python-version: "3.12"
+
+      - name: 同步依赖
+        run: uv sync
+
+      - name: 语义缓存单元测试
+        # 这组测试不依赖 MySQL / Milvus / Redis / 模型，CI 里可以直接跑
+        run: uv run python tests/test_semantic_cache.py
+
+      - name: 意图路由单元测试
+        run: uv run python -m agent.router
+
+      - name: 基础语法检查
+        run: |
+          uv run python -m compileall -q \
+            app.py new_main.py base agent services api sql_qa graph_qa mysql_qa rag_qa
