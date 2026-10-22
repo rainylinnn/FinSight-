@@ -1,0 +1,40 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: 'linear-gradient(118deg, #0E1B2E 0%, #16294a 55%, #24487d 100%)',
+    position: 'relative',
+    overflow: 'hidden',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    paddingLeft: 112,
+}}>
+    <svg width={1280} height={720} viewBox='0 0 1280 720' style={{ position: 'absolute', top: 0, left: 0, opacity: 0.4 }}>
+        <g stroke='#C8A24A' strokeWidth='1' fill='none' opacity='0.5'>
+            <circle cx='1010' cy='360' r='120' />
+            <circle cx='1010' cy='360' r='196' />
+            <circle cx='1010' cy='360' r='272' />
+            <circle cx='1010' cy='360' r='348' />
+            <path d='M 0 604 L 1280 470' />
+            <path d='M 0 660 L 1280 526' />
+        </g>
+        <g fill='#C8A24A'>
+            <circle cx='1010' cy='240' r='4' opacity='0.85' />
+            <circle cx='1010' cy='360' r='6' opacity='1' />
+            <circle cx='870' cy='360' r='3' opacity='0.6' />
+            <circle cx='1150' cy='360' r='3' opacity='0.6' />
+        </g>
+    </svg>
+
+    <Box style={{ position: 'relative', zIndex: 2, flexDirection: 'column', width: 860 }}>
+        <Text style={{ fontSize: 100, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas', lineHeight: 1, opacity: 0.92 }}>
+            01
+        </Text>
+        <Text style={{ fontSize: 62, fontWeight: 'bold', color: '#F5F1E8', marginTop: 26, lineHeight: 1.15 }}>
+            一个入口，三条链路
+        </Text>
+        <Box style={{ width: 72, height: 3, background: '#C8A24A', marginTop: 30 }} />
+        <Text style={{ fontSize: 21, color: 'rgba(245,241,232,0.66)', marginTop: 28, lineHeight: 1.6 }}>
+            研究员的同一个问题，系统自己判断该查哪里。
+        </Text>
+    </Box>
+</Slide>

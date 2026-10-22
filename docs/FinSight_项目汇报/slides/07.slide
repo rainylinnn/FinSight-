@@ -1,0 +1,39 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: 'linear-gradient(122deg, #0E1B2E 0%, #182d50 52%, #2a4f86 100%)',
+    position: 'relative',
+    overflow: 'hidden',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    paddingLeft: 112,
+}}>
+    <svg width={1280} height={720} viewBox='0 0 1280 720' style={{ position: 'absolute', top: 0, left: 0, opacity: 0.38 }}>
+        <g stroke='#C8A24A' strokeWidth='1' fill='none' opacity='0.46'>
+            <path d='M 700 0 L 700 720' opacity='0.2' />
+            <path d='M 812 0 L 812 720' opacity='0.14' />
+            <path d='M 924 0 L 924 720' opacity='0.1' />
+            <path d='M 0 96 L 1280 0' />
+            <path d='M 0 168 L 1280 72' opacity='0.6' />
+            <path d='M 0 240 L 1280 144' opacity='0.35' />
+        </g>
+        <g fill='#C8A24A'>
+            <circle cx='700' cy='168' r='4' opacity='0.8' />
+            <circle cx='924' cy='240' r='3' opacity='0.55' />
+            <circle cx='812' cy='96' r='3.4' opacity='0.65' />
+        </g>
+    </svg>
+
+    <Box style={{ position: 'relative', zIndex: 2, flexDirection: 'column', width: 880 }}>
+        <Text style={{ fontSize: 100, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas', lineHeight: 1, opacity: 0.92 }}>
+            02
+        </Text>
+        <Text style={{ fontSize: 60, fontWeight: 'bold', color: '#F5F1E8', marginTop: 26, lineHeight: 1.18 }}>
+            让它准起来，也让它说实话
+        </Text>
+        <Box style={{ width: 72, height: 3, background: '#C8A24A', marginTop: 30 }} />
+        <Text style={{ fontSize: 21, color: 'rgba(245,241,232,0.66)', marginTop: 28, lineHeight: 1.6 }}>
+            检索怎么补、SQL 怎么管、效果怎么量，以及四次返工。
+        </Text>
+    </Box>
+</Slide>

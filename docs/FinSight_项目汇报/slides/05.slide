@@ -1,0 +1,123 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F5F1E8',
+    padding: '30px 72px 18px',
+    flexDirection: 'column',
+}}>
+    <Box style={{ flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'space-between', height: 76 }}>
+        <Box style={{ flexDirection: 'column' }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0E1B2E' }}>
+                一次提问，五层协作
+            </Text>
+            <Text style={{ fontSize: 15, color: 'rgba(14,27,46,0.55)', marginTop: 8 }}>
+                路由错一次，答案就答非所问 —— 所以先分类，再决定查哪里
+            </Text>
+        </Box>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)', letterSpacing: 2 }}>
+            02 / 系统全景
+        </Text>
+    </Box>
+
+    <Box style={{ marginTop: 26, flexDirection: 'column' }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 0 }}>
+            <Box style={{ width: 196, height: 152, background: '#FFFFFF', borderRadius: 10, padding: '14px 14px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column' }}>
+                <Text style={{ fontSize: 10.5, letterSpacing: 2, color: '#2F5D9E', fontWeight: 'bold' }}>DATA</Text>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E1B2E', marginTop: 10 }}>数据层</Text>
+                <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.55)', marginTop: 8, lineHeight: 1.6 }}>
+                    60 份年报 PDF<br />MySQL 财务指标<br />十大股东
+                </Text>
+            </Box>
+
+            <Box style={{ width: 38, alignItems: 'center' }}>
+                <Text style={{ fontSize: 16, color: 'rgba(200,162,74,0.9)' }}>→</Text>
+            </Box>
+
+            <Box style={{ width: 196, height: 152, background: '#FFFFFF', borderRadius: 10, padding: '14px 14px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column' }}>
+                <Text style={{ fontSize: 10.5, letterSpacing: 2, color: '#2F5D9E', fontWeight: 'bold' }}>RETRIEVE</Text>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E1B2E', marginTop: 10 }}>召回层</Text>
+                <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.55)', marginTop: 8, lineHeight: 1.6 }}>
+                    BM25 关键词<br />Milvus 稠密+稀疏<br />RRF 融合
+                </Text>
+            </Box>
+
+            <Box style={{ width: 38, alignItems: 'center' }}>
+                <Text style={{ fontSize: 16, color: 'rgba(200,162,74,0.9)' }}>→</Text>
+            </Box>
+
+            <Box style={{ width: 196, height: 152, background: '#0E1B2E', borderRadius: 10, padding: '14px 14px', flexDirection: 'column' }}>
+                <Text style={{ fontSize: 10.5, letterSpacing: 2, color: '#C8A24A', fontWeight: 'bold' }}>ROUTE</Text>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#F5F1E8', marginTop: 10 }}>路由层</Text>
+                <Text style={{ fontSize: 12, color: 'rgba(245,241,232,0.62)', marginTop: 8, lineHeight: 1.6 }}>
+                    BERT 意图分类<br />规则兜底<br />SQL / RAG 分流
+                </Text>
+            </Box>
+
+            <Box style={{ width: 38, alignItems: 'center' }}>
+                <Text style={{ fontSize: 16, color: 'rgba(200,162,74,0.9)' }}>→</Text>
+            </Box>
+
+            <Box style={{ width: 196, height: 152, background: '#FFFFFF', borderRadius: 10, padding: '14px 14px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column' }}>
+                <Text style={{ fontSize: 10.5, letterSpacing: 2, color: '#2F5D9E', fontWeight: 'bold' }}>GENERATE</Text>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E1B2E', marginTop: 10 }}>生成层</Text>
+                <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.55)', marginTop: 8, lineHeight: 1.6 }}>
+                    DeepSeek 总结<br />强制带页码引用<br />答案 ≤ 250 字
+                </Text>
+            </Box>
+
+            <Box style={{ width: 38, alignItems: 'center' }}>
+                <Text style={{ fontSize: 16, color: 'rgba(200,162,74,0.9)' }}>→</Text>
+            </Box>
+
+            <Box style={{ width: 196, height: 152, background: 'rgba(47,93,158,0.09)', borderRadius: 10, padding: '14px 14px', border: '1px solid rgba(47,93,158,0.22)', flexDirection: 'column' }}>
+                <Text style={{ fontSize: 10.5, letterSpacing: 2, color: '#2F5D9E', fontWeight: 'bold' }}>DELIVER</Text>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E1B2E', marginTop: 10 }}>界面层</Text>
+                <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.55)', marginTop: 8, lineHeight: 1.6 }}>
+                    对话 / 图表<br />板块卡 · 行情<br />Word 报告导出
+                </Text>
+            </Box>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', gap: 14, marginTop: 34 }}>
+            <Box style={{ flex: 1.35, background: '#FFFFFF', borderRadius: 12, padding: '16px 18px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column' }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', justifyContent: 'space-between' }}>
+                    <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E1B2E' }}>自动模式</Text>
+                    <Text style={{ fontSize: 11, color: '#C8A24A', fontFamily: 'Consolas' }}>mode=auto</Text>
+                </Box>
+                <Text style={{ fontSize: 12.5, color: 'rgba(14,27,46,0.58)', marginTop: 8, lineHeight: 1.7 }}>
+                    默认入口。先判意图，再决定走 SQL 还是 RAG；知识库外的问题（行情、荐股）交给通用回答并标注时效。
+                </Text>
+            </Box>
+            <Box style={{ flex: 1, background: '#FFFFFF', borderRadius: 12, padding: '16px 18px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column' }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', justifyContent: 'space-between' }}>
+                    <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E1B2E' }}>财务指标</Text>
+                    <Text style={{ fontSize: 11, color: '#C8A24A', fontFamily: 'Consolas' }}>mode=sql</Text>
+                </Box>
+                <Text style={{ fontSize: 12.5, color: 'rgba(14,27,46,0.58)', marginTop: 8, lineHeight: 1.7 }}>
+                    强制 NL2SQL。适合明确要数字的问题，跳过检索环节。
+                </Text>
+            </Box>
+            <Box style={{ flex: 1, background: '#FFFFFF', borderRadius: 12, padding: '16px 18px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column' }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', justifyContent: 'space-between' }}>
+                    <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E1B2E' }}>年报原文</Text>
+                    <Text style={{ fontSize: 11, color: '#C8A24A', fontFamily: 'Consolas' }}>mode=rag</Text>
+                </Box>
+                <Text style={{ fontSize: 12.5, color: 'rgba(14,27,46,0.58)', marginTop: 8, lineHeight: 1.7 }}>
+                    强制检索。适合要原文表述、要页码的场景。
+                </Text>
+            </Box>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12, marginTop: 22 }}>
+            <Box style={{ width: 3, height: 32, background: '#C8A24A' }} />
+            <Text style={{ fontSize: 14, color: 'rgba(14,27,46,0.62)', lineHeight: 1.6 }}>
+                三条链路共用同一套数据与召回，区别只在「谁被强制」—— 所以错一次路由，整套答案都会偏。
+            </Text>
+        </Box>
+    </Box>
+
+    <Box style={{ height: 32, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', marginTop: 'auto' }}>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)' }}>FinSight · 白酒行业智能投研</Text>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)', fontFamily: 'Consolas' }}>05 / 12</Text>
+    </Box>
+</Slide>

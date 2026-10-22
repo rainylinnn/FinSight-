@@ -1,0 +1,94 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F5F1E8',
+    padding: '30px 72px 18px',
+    flexDirection: 'column',
+}}>
+    <Box style={{ flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'space-between', height: 76 }}>
+        <Box style={{ flexDirection: 'column' }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0E1B2E' }}>
+                两条腿走路：关键词 + 向量
+            </Text>
+            <Text style={{ fontSize: 15, color: 'rgba(14,27,46,0.55)', marginTop: 8 }}>
+                「渠道库存」这种词，纯向量抓不住
+            </Text>
+        </Box>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)', letterSpacing: 2 }}>
+            03 / 检索链路
+        </Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', gap: 44, marginTop: 24, flex: 1 }}>
+        <Box style={{ width: 636, flexDirection: 'column' }}>
+            <Box style={{ background: '#FFFFFF', borderRadius: 10, padding: '13px 18px', border: '1px solid rgba(14,27,46,0.10)', alignItems: 'center' }}>
+                <Text style={{ fontSize: 14, color: '#0E1B2E', fontWeight: 'bold' }}>问句：茅台 2025 年提到了哪些经营风险？</Text>
+            </Box>
+
+            <Box style={{ height: 26, alignItems: 'center' }}><Text style={{ fontSize: 14, color: 'rgba(14,27,46,0.30)' }}>↓</Text></Box>
+
+            <Box style={{ flexDirection: 'row', gap: 16 }}>
+                <Box style={{ flex: 1, background: 'rgba(47,93,158,0.07)', borderRadius: 10, padding: '14px 16px', border: '1px solid rgba(47,93,158,0.20)', flexDirection: 'column' }}>
+                    <Text style={{ fontSize: 10.5, letterSpacing: 2, color: '#2F5D9E', fontWeight: 'bold' }}>SPARSE</Text>
+                    <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E1B2E', marginTop: 8 }}>BM25 关键词</Text>
+                    <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.55)', marginTop: 6, lineHeight: 1.6 }}>
+                        jieba 分词 · 问句词过滤<br />抓术语、抓专有名词
+                    </Text>
+                </Box>
+                <Box style={{ flex: 1, background: 'rgba(14,27,46,0.05)', borderRadius: 10, padding: '14px 16px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column' }}>
+                    <Text style={{ fontSize: 10.5, letterSpacing: 2, color: 'rgba(14,27,46,0.45)', fontWeight: 'bold' }}>DENSE</Text>
+                    <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E1B2E', marginTop: 8 }}>Milvus 向量</Text>
+                    <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.55)', marginTop: 6, lineHeight: 1.6 }}>
+                        BGE-M3 稠密 + 稀疏<br />抓语义相近表述
+                    </Text>
+                </Box>
+            </Box>
+
+            <Box style={{ height: 22, alignItems: 'center' }}><Text style={{ fontSize: 13, color: 'rgba(14,27,46,0.30)' }}>↓</Text></Box>
+
+            <Box style={{ background: '#0E1B2E', borderRadius: 10, padding: '13px 18px', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                <Text style={{ fontSize: 14.5, fontWeight: 'bold', color: '#F5F1E8' }}>RRF 融合</Text>
+                <Text style={{ fontSize: 12, color: 'rgba(245,241,232,0.55)' }}>按排名倒数加权，不用调分数阈值</Text>
+            </Box>
+
+            <Box style={{ height: 22, alignItems: 'center' }}><Text style={{ fontSize: 13, color: 'rgba(14,27,46,0.30)' }}>↓</Text></Box>
+
+            <Box style={{ background: '#FFFFFF', borderRadius: 10, padding: '13px 18px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#0E1B2E' }}>父子块回填</Text>
+                <Text style={{ fontSize: 11.5, color: 'rgba(14,27,46,0.45)' }}>命中子块 → 补全父窗口上下文</Text>
+            </Box>
+        </Box>
+
+        <Box style={{ flex: 1, flexDirection: 'column' }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 10 }}>
+                <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas', lineHeight: 1 }}>+5</Text>
+                <Text style={{ fontSize: 13, color: 'rgba(14,27,46,0.55)' }}>个百分点</Text>
+            </Box>
+            <Text style={{ fontSize: 14, color: 'rgba(14,27,46,0.68)', marginTop: 10, lineHeight: 1.7 }}>
+                hit@5 从 <span style={{ fontWeight: 'bold', color: '#0E1B2E' }}>90%</span> 提到 <span style={{ fontWeight: 'bold', color: '#0E1B2E' }}>95%</span>，MRR 从 0.767 到 0.885。
+            </Text>
+
+            <Box style={{ height: 1, background: 'rgba(14,27,46,0.10)', margin: '22px 0' }} />
+
+            <Box style={{ flexDirection: 'column', gap: 16 }}>
+                <Box style={{ flexDirection: 'column' }}>
+                    <Text style={{ fontSize: 14.5, fontWeight: 'bold', color: '#0E1B2E' }}>代价是慢三倍</Text>
+                    <Text style={{ fontSize: 13, color: 'rgba(14,27,46,0.58)', marginTop: 5, lineHeight: 1.65 }}>
+                        检索延迟 0.53s → 1.44s。多花一秒换 5 个百分点召回，值。
+                    </Text>
+                </Box>
+                <Box style={{ flexDirection: 'column' }}>
+                    <Text style={{ fontSize: 14.5, fontWeight: 'bold', color: '#0E1B2E' }}>还需要兜底</Text>
+                    <Text style={{ fontSize: 13, color: 'rgba(14,27,46,0.58)', marginTop: 5, lineHeight: 1.65 }}>
+                        年报"一页拆多节"会让父窗口落到相邻章节，命中时自动回退用子块文本。
+                    </Text>
+                </Box>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ height: 32, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)' }}>FinSight · 白酒行业智能投研</Text>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)', fontFamily: 'Consolas' }}>08 / 12</Text>
+    </Box>
+</Slide>

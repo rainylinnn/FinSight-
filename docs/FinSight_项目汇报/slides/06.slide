@@ -1,0 +1,59 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: 'linear-gradient(135deg, #0E1B2E 0%, #152b4d 58%, #1d3f6e 100%)',
+    position: 'relative',
+    overflow: 'hidden',
+    flexDirection: 'column',
+    padding: '52px 72px 18px',
+}}>
+    <svg width={1280} height={720} viewBox='0 0 1280 720' style={{ position: 'absolute', top: 0, left: 0, opacity: 0.3 }}>
+        <g stroke='#C8A24A' strokeWidth='1' fill='none' opacity='0.4'>
+            <path d='M 0 120 L 1280 40' />
+            <path d='M 0 200 L 1280 120' />
+            <path d='M 0 280 L 1280 200' />
+            <path d='M 640 0 L 640 720' opacity='0.16' />
+        </g>
+    </svg>
+
+    <Box style={{ position: 'relative', zIndex: 2, flexDirection: 'row', alignItems: 'flex-end', gap: 56, marginTop: 64 }}>
+        <Box style={{ flex: 1.25, flexDirection: 'column' }}>
+            <Text style={{ fontSize: 11, letterSpacing: 4, color: '#C8A24A', fontWeight: 'bold' }}>
+                MILVUS · 年报向量库
+            </Text>
+            <Text style={{ fontSize: 108, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas', lineHeight: 1, marginTop: 12 }}>
+                24,235
+            </Text>
+            <Text style={{ fontSize: 17, color: 'rgba(245,241,232,0.78)', marginTop: 16 }}>
+                条子块向量　·　20 家公司 × 2023–2025
+            </Text>
+        </Box>
+
+        <Box style={{ flex: 1, flexDirection: 'column', gap: 22, paddingBottom: 6 }}>
+            <Box style={{ flexDirection: 'column', borderLeft: '2px solid rgba(200,162,74,0.42)', paddingLeft: 18 }}>
+                <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#F5F1E8', fontFamily: 'Consolas', lineHeight: 1.1 }}>60</Text>
+                <Text style={{ fontSize: 13, color: 'rgba(245,241,232,0.55)', marginTop: 4 }}>份年报 · 11,001 页</Text>
+            </Box>
+            <Box style={{ flexDirection: 'column', borderLeft: '2px solid rgba(200,162,74,0.42)', paddingLeft: 18 }}>
+                <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#F5F1E8', fontFamily: 'Consolas', lineHeight: 1.1 }}>34,572</Text>
+                <Text style={{ fontSize: 13, color: 'rgba(245,241,232,0.55)', marginTop: 4 }}>个父子块 · 6593 父 / 34572 子</Text>
+            </Box>
+            <Box style={{ flexDirection: 'column', borderLeft: '2px solid rgba(200,162,74,0.42)', paddingLeft: 18 }}>
+                <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#F5F1E8', fontFamily: 'Consolas', lineHeight: 1.1 }}>186</Text>
+                <Text style={{ fontSize: 13, color: 'rgba(245,241,232,0.55)', marginTop: 4 }}>行十大股东 · 60 行财务指标</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'relative', zIndex: 2, flexDirection: 'row', gap: 18, marginTop: 'auto', marginBottom: 46 }}>
+        <Box style={{ width: 4, background: '#C8A24A', borderRadius: 2 }} />
+        <Box style={{ flexDirection: 'column' }}>
+            <Text style={{ fontSize: 16, color: 'rgba(245,241,232,0.88)', lineHeight: 1.7 }}>
+                财务报告章节的 <span style={{ color: '#C8A24A', fontWeight: 'bold' }}>10,337 个子块被故意排除</span>在向量库外。
+            </Text>
+            <Text style={{ fontSize: 14, color: 'rgba(245,241,232,0.5)', marginTop: 6, lineHeight: 1.7 }}>
+                报表数字切碎后检索反而更不准 —— 指标类问题交给 MySQL 精确计算，向量库只负责"原文怎么说"。
+            </Text>
+        </Box>
+    </Box>
+</Slide>

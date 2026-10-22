@@ -1,0 +1,94 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F5F1E8',
+    padding: '30px 72px 18px',
+    flexDirection: 'column',
+}}>
+    <Box style={{ flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'space-between', height: 76 }}>
+        <Box style={{ flexDirection: 'column' }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0E1B2E' }}>
+                数字不撒谎，短板也藏不住
+            </Text>
+            <Text style={{ fontSize: 15, color: 'rgba(14,27,46,0.55)', marginTop: 8 }}>
+                32 道自建评测题 · 单请求串行 · 未开 reranker
+            </Text>
+        </Box>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)', letterSpacing: 2 }}>
+            05 / 评测
+        </Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', gap: 38, marginTop: 20, flex: 1 }}>
+        <Box style={{ flex: 1.35, flexDirection: 'column' }}>
+            <Text style={{ fontSize: 12, letterSpacing: 2, color: 'rgba(14,27,46,0.42)', fontWeight: 'bold' }}>
+                链路正确率（%，越高越好）
+            </Text>
+            <Box style={{ flex: 1, marginTop: 6 }}>
+                <Chart
+                    style={{ height: 388 }}
+                    chartType='barChart'
+                    barDirection='bar'
+                    grouping='clustered'
+                    showLegend={false}
+                    showDataLabels={true}
+                    colors={['#2F5D9E']}
+                    axisColor='#7b8494'
+                    dataLabelColor='#0E1B2E'
+                    background='transparent'
+                    data={[
+                        ['项目', '得分'],
+                        ['SQL 数值命中', 100],
+                        ['检索 hit@5', 95],
+                        ['答案关键词命中', 95],
+                        ['引用标注覆盖', 85],
+                        ['RAGAS Faithfulness', 87.8],
+                    ]}
+                />
+            </Box>
+        </Box>
+
+        <Box style={{ flex: 1, flexDirection: 'column' }}>
+            <Text style={{ fontSize: 12, letterSpacing: 2, color: 'rgba(14,27,46,0.42)', fontWeight: 'bold' }}>
+                RAGAS 四维打分（0–1）
+            </Text>
+
+            <Box style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 10, marginTop: 12 }}>
+                <Box style={{ width: 148, background: '#FFFFFF', borderRadius: 10, padding: '12px 14px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column' }}>
+                    <Text style={{ fontSize: 11, color: 'rgba(14,27,46,0.5)' }}>Faithfulness</Text>
+                    <Text style={{ fontSize: 25, fontWeight: 'bold', color: '#0E1B2E', fontFamily: 'Consolas', marginTop: 3 }}>0.878</Text>
+                </Box>
+                <Box style={{ width: 148, background: '#FFFFFF', borderRadius: 10, padding: '12px 14px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column' }}>
+                    <Text style={{ fontSize: 11, color: 'rgba(14,27,46,0.5)' }}>Answer Relevancy</Text>
+                    <Text style={{ fontSize: 25, fontWeight: 'bold', color: '#0E1B2E', fontFamily: 'Consolas', marginTop: 3 }}>0.928</Text>
+                </Box>
+                <Box style={{ width: 148, background: '#FFFFFF', borderRadius: 10, padding: '12px 14px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column' }}>
+                    <Text style={{ fontSize: 11, color: 'rgba(14,27,46,0.5)' }}>Context Precision</Text>
+                    <Text style={{ fontSize: 25, fontWeight: 'bold', color: '#0E1B2E', fontFamily: 'Consolas', marginTop: 3 }}>0.755</Text>
+                </Box>
+                <Box style={{ width: 148, background: 'rgba(200,162,74,0.14)', borderRadius: 10, padding: '12px 14px', border: '1px solid rgba(200,162,74,0.55)', flexDirection: 'column' }}>
+                    <Text style={{ fontSize: 11, color: 'rgba(14,27,46,0.6)' }}>Context Recall</Text>
+                    <Text style={{ fontSize: 25, fontWeight: 'bold', color: '#8a6b1f', fontFamily: 'Consolas', marginTop: 3 }}>0.636</Text>
+                </Box>
+            </Box>
+
+            <Box style={{ marginTop: 16, background: '#0E1B2E', borderRadius: 12, padding: '16px 18px', flexDirection: 'column' }}>
+                <Text style={{ fontSize: 13.5, fontWeight: 'bold', color: '#C8A24A' }}>
+                    瓶颈在检索，不在模型
+                </Text>
+                <Text style={{ fontSize: 12.5, color: 'rgba(245,241,232,0.72)', marginTop: 8, lineHeight: 1.7 }}>
+                    生成层 Faithfulness 0.878 已够用；Context Recall 0.636 说明该捞的原文没捞全 —— 下一步做章节偏好检索，而不是换更大的模型。
+                </Text>
+            </Box>
+
+            <Text style={{ fontSize: 11, color: 'rgba(14,27,46,0.4)', marginTop: 'auto', lineHeight: 1.65 }}>
+                局限：自建 32 题小样本、单请求串行、CPU 未开 reranker（单次 30–60s）。
+            </Text>
+        </Box>
+    </Box>
+
+    <Box style={{ height: 32, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)' }}>FinSight · 白酒行业智能投研</Text>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)', fontFamily: 'Consolas' }}>10 / 12</Text>
+    </Box>
+</Slide>

@@ -1,0 +1,72 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: 'linear-gradient(135deg, #0E1B2E 0%, #152b4d 55%, #22456f 100%)',
+    position: 'relative',
+    overflow: 'hidden',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+}}>
+    <svg width={1280} height={720} viewBox='0 0 1280 720' style={{ position: 'absolute', top: 0, left: 0, opacity: 0.3 }}>
+        <g stroke='#C8A24A' strokeWidth='1' fill='none' opacity='0.42'>
+            <circle cx='640' cy='360' r='196' />
+            <circle cx='640' cy='360' r='286' />
+            <circle cx='640' cy='360' r='376' />
+            <path d='M 0 360 L 1280 360' opacity='0.18' />
+            <path d='M 640 0 L 640 720' opacity='0.14' />
+        </g>
+        <g fill='#C8A24A'>
+            <circle cx='640' cy='164' r='3' opacity='0.6' />
+            <circle cx='640' cy='556' r='3' opacity='0.6' />
+            <circle cx='354' cy='360' r='2.6' opacity='0.45' />
+            <circle cx='926' cy='360' r='2.6' opacity='0.45' />
+        </g>
+    </svg>
+
+    <Box style={{ position: 'relative', zIndex: 2, flexDirection: 'column', alignItems: 'center', width: 880 }}>
+        <Text style={{ fontSize: 12, letterSpacing: 6, color: '#C8A24A', fontWeight: 'bold' }}>
+            FIN · SIGHT
+        </Text>
+        <Text style={{
+            fontSize: 46,
+            fontWeight: 'bold',
+            color: '#F5F1E8',
+            marginTop: 30,
+            lineHeight: 1.42,
+            textAlign: 'center',
+        }}>
+            让模型少说一点，<br />让数据多说一点
+        </Text>
+        <Box style={{ width: 66, height: 2, background: '#C8A24A', marginTop: 34 }} />
+
+        <Box style={{ flexDirection: 'row', gap: 46, marginTop: 42 }}>
+            <Box style={{ flexDirection: 'column', alignItems: 'center' }}>
+                <Text style={{ fontSize: 13, color: 'rgba(245,241,232,0.5)' }}>一个入口</Text>
+                <Text style={{ fontSize: 15, color: 'rgba(245,241,232,0.86)', marginTop: 6 }}>三条链路</Text>
+            </Box>
+            <Box style={{ width: 1, height: 34, background: 'rgba(200,162,74,0.28)' }} />
+            <Box style={{ flexDirection: 'column', alignItems: 'center' }}>
+                <Text style={{ fontSize: 13, color: 'rgba(245,241,232,0.5)' }}>向量库</Text>
+                <Text style={{ fontSize: 15, color: 'rgba(245,241,232,0.86)', marginTop: 6, fontFamily: 'Consolas' }}>24,235 条</Text>
+            </Box>
+            <Box style={{ width: 1, height: 34, background: 'rgba(200,162,74,0.28)' }} />
+            <Box style={{ flexDirection: 'column', alignItems: 'center' }}>
+                <Text style={{ fontSize: 13, color: 'rgba(245,241,232,0.5)' }}>检索命中</Text>
+                <Text style={{ fontSize: 15, color: 'rgba(245,241,232,0.86)', marginTop: 6, fontFamily: 'Consolas' }}>hit@5 95%</Text>
+            </Box>
+            <Box style={{ width: 1, height: 34, background: 'rgba(200,162,74,0.28)' }} />
+            <Box style={{ flexDirection: 'column', alignItems: 'center' }}>
+                <Text style={{ fontSize: 13, color: 'rgba(245,241,232,0.5)' }}>指标计算</Text>
+                <Text style={{ fontSize: 15, color: 'rgba(245,241,232,0.86)', marginTop: 6, fontFamily: 'Consolas' }}>100% 命中</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', bottom: 46, flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+        <Box style={{ width: 22, height: 1, background: 'rgba(200,162,74,0.5)' }} />
+        <Text style={{ fontSize: 12, color: 'rgba(245,241,232,0.34)', letterSpacing: 2 }}>
+            FinSight 酒研助手　·　2026.10
+        </Text>
+    </Box>
+</Slide>

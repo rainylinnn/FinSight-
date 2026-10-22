@@ -1,0 +1,86 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: 'linear-gradient(135deg, #0E1B2E 0%, #16294a 60%, #24487d 100%)',
+    position: 'relative',
+    overflow: 'hidden',
+    flexDirection: 'column',
+}}>
+    <svg width={1280} height={720} viewBox='0 0 1280 720' style={{ position: 'absolute', top: 0, left: 0, opacity: 0.46 }}>
+        <g stroke='#C8A24A' strokeWidth='1' fill='none' opacity='0.55'>
+            <path d='M 700 96 L 964 34 L 1196 208' />
+            <path d='M 964 34 L 1180 20' />
+            <path d='M 700 96 L 838 306' />
+            <path d='M 838 306 L 1150 240 L 1196 208' />
+            <path d='M 838 306 L 706 470' />
+            <path d='M 838 306 L 1064 486' />
+            <path d='M 1064 486 L 1210 414' />
+            <path d='M 706 470 L 962 606' />
+            <path d='M 962 606 L 1210 414' />
+            <path d='M 1064 486 L 962 606' />
+        </g>
+        <g fill='#C8A24A'>
+            <circle cx='700' cy='96' r='3' opacity='0.8' />
+            <circle cx='964' cy='34' r='4' opacity='0.9' />
+            <circle cx='1180' cy='20' r='2.4' opacity='0.55' />
+            <circle cx='1196' cy='208' r='3.4' opacity='0.75' />
+            <circle cx='838' cy='306' r='5' opacity='1' />
+            <circle cx='1150' cy='240' r='2.6' opacity='0.6' />
+            <circle cx='706' cy='470' r='3' opacity='0.7' />
+            <circle cx='1064' cy='486' r='4' opacity='0.85' />
+            <circle cx='1210' cy='414' r='2.6' opacity='0.55' />
+            <circle cx='962' cy='606' r='3.2' opacity='0.7' />
+        </g>
+        <g stroke='#C8A24A' strokeWidth='1' fill='none' opacity='0.28'>
+            <circle cx='838' cy='306' r='96' />
+            <circle cx='838' cy='306' r='152' />
+            <circle cx='838' cy='306' r='208' />
+        </g>
+    </svg>
+
+    <Box style={{
+        position: 'relative',
+        zIndex: 2,
+        width: 720,
+        paddingLeft: 96,
+        flexDirection: 'column',
+        justifyContent: 'center',
+        height: '100%',
+    }}>
+        <Text style={{ fontSize: 13, letterSpacing: 7, color: '#C8A24A', fontWeight: 'bold' }}>
+            FIN · SIGHT　2026
+        </Text>
+        <Text style={{ fontSize: 64, fontWeight: 'bold', color: '#F5F1E8', lineHeight: 1.15, marginTop: 24 }}>
+            FinSight 酒研助手
+        </Text>
+        <Box style={{ width: 86, height: 3, background: '#C8A24A', marginTop: 28 }} />
+        <Text style={{ fontSize: 24, color: 'rgba(245,241,232,0.86)', marginTop: 28, lineHeight: 1.5 }}>
+            白酒行业智能投研工作台
+        </Text>
+        <Text style={{ fontSize: 16, color: 'rgba(245,241,232,0.52)', marginTop: 14, letterSpacing: 0.6 }}>
+            年报原文 RAG　·　财务指标 NL2SQL　·　股东关系图谱
+        </Text>
+
+        <Box style={{ flexDirection: 'row', gap: 46, marginTop: 58 }}>
+            <Box style={{ flexDirection: 'column' }}>
+                <Text style={{ fontSize: 36, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas' }}>20</Text>
+                <Text style={{ fontSize: 12, color: 'rgba(245,241,232,0.46)', letterSpacing: 1.4, marginTop: 4 }}>家公司</Text>
+            </Box>
+            <Box style={{ flexDirection: 'column' }}>
+                <Text style={{ fontSize: 36, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas' }}>60</Text>
+                <Text style={{ fontSize: 12, color: 'rgba(245,241,232,0.46)', letterSpacing: 1.4, marginTop: 4 }}>份年报</Text>
+            </Box>
+            <Box style={{ flexDirection: 'column' }}>
+                <Text style={{ fontSize: 36, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas' }}>24,235</Text>
+                <Text style={{ fontSize: 12, color: 'rgba(245,241,232,0.46)', letterSpacing: 1.4, marginTop: 4 }}>条向量</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', left: 96, bottom: 44, flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+        <Box style={{ width: 26, height: 1, background: 'rgba(200,162,74,0.6)' }} />
+        <Text style={{ fontSize: 12, color: 'rgba(245,241,232,0.4)', letterSpacing: 2 }}>
+            项目汇报　·　2026.10
+        </Text>
+    </Box>
+</Slide>

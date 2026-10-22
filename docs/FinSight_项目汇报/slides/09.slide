@@ -1,0 +1,103 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F5F1E8',
+    padding: '30px 72px 18px',
+    flexDirection: 'column',
+}}>
+    <Box style={{ flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'space-between', height: 76 }}>
+        <Box style={{ flexDirection: 'column' }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0E1B2E' }}>
+                先分类，再放行
+            </Text>
+            <Text style={{ fontSize: 15, color: 'rgba(14,27,46,0.55)', marginTop: 8 }}>
+                让 LLM 写 SQL，危险的不是它写错，是它写对了一句你不想要的话
+            </Text>
+        </Box>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)', letterSpacing: 2 }}>
+            04 / 分流与安全
+        </Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', gap: 34, marginTop: 22, flex: 1 }}>
+        <Box style={{
+            width: 286,
+            background: 'linear-gradient(160deg, #0E1B2E 0%, #1d3a63 100%)',
+            borderRadius: 14,
+            padding: '26px 22px',
+            flexDirection: 'column',
+        }}>
+            <Text style={{ fontSize: 11, letterSpacing: 3, color: '#C8A24A', fontWeight: 'bold' }}>ROUTING</Text>
+            <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#F5F1E8', marginTop: 16, lineHeight: 1.35 }}>
+                一道分类题，<br />决定走哪条路
+            </Text>
+            <Box style={{ width: 44, height: 2, background: '#C8A24A', marginTop: 20 }} />
+            <Text style={{ fontSize: 13, color: 'rgba(245,241,232,0.6)', marginTop: 18, lineHeight: 1.75 }}>
+                财务指标 → SQL<br />
+                原文解释 → RAG<br />
+                行情荐股 → 通用回答 + 时效声明
+            </Text>
+            <Text style={{ fontSize: 12, color: 'rgba(245,241,232,0.38)', marginTop: 'auto', lineHeight: 1.7 }}>
+                判错一次的代价：<br />整段答案都答非所问。
+            </Text>
+        </Box>
+
+        <Box style={{ flex: 1, flexDirection: 'column', gap: 18 }}>
+            <Box style={{ background: '#FFFFFF', borderRadius: 12, padding: '18px 22px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column' }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', justifyContent: 'space-between' }}>
+                    <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0E1B2E' }}>BERT 意图分类器</Text>
+                    <Text style={{ fontSize: 11, color: 'rgba(14,27,46,0.4)', fontFamily: 'Consolas' }}>CPU 训练 8.3 分钟</Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 28, marginTop: 14 }}>
+                    <Box style={{ flexDirection: 'column' }}>
+                        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas', lineHeight: 1.1 }}>1,200</Text>
+                        <Text style={{ fontSize: 11.5, color: 'rgba(14,27,46,0.5)', marginTop: 3 }}>条训练数据 · 11 子类</Text>
+                    </Box>
+                    <Box style={{ flexDirection: 'column' }}>
+                        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas', lineHeight: 1.1 }}>1.000</Text>
+                        <Text style={{ fontSize: 11.5, color: 'rgba(14,27,46,0.5)', marginTop: 3 }}>OOD 准确率 · 规则 0.941</Text>
+                    </Box>
+                    <Box style={{ flexDirection: 'column' }}>
+                        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas', lineHeight: 1.1 }}>55ms</Text>
+                        <Text style={{ fontSize: 11.5, color: 'rgba(14,27,46,0.5)', marginTop: 3 }}>单条推理</Text>
+                    </Box>
+                </Box>
+                <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.45)', marginTop: 12, lineHeight: 1.6 }}>
+                    样本量小，OOD 只 34 条 —— 1.0 是上限参考，不是泛化保证。
+                </Text>
+            </Box>
+
+            <Box style={{ background: '#FFFFFF', borderRadius: 12, padding: '18px 22px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column', flex: 1 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'baseline', justifyContent: 'space-between' }}>
+                    <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0E1B2E' }}>SQL 安全闸</Text>
+                    <Text style={{ fontSize: 11, color: 'rgba(14,27,46,0.4)', fontFamily: 'Consolas' }}>sqlglot 解析</Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 12, marginTop: 14 }}>
+                    <Box style={{ flex: 1, background: 'rgba(47,93,158,0.07)', borderRadius: 8, padding: '11px 12px', flexDirection: 'column' }}>
+                        <Text style={{ fontSize: 12.5, fontWeight: 'bold', color: '#2F5D9E' }}>单条 SELECT</Text>
+                        <Text style={{ fontSize: 11, color: 'rgba(14,27,46,0.5)', marginTop: 4 }}>拒绝多语句拼接</Text>
+                    </Box>
+                    <Box style={{ flex: 1, background: 'rgba(47,93,158,0.07)', borderRadius: 8, padding: '11px 12px', flexDirection: 'column' }}>
+                        <Text style={{ fontSize: 12.5, fontWeight: 'bold', color: '#2F5D9E' }}>四表白名单</Text>
+                        <Text style={{ fontSize: 11, color: 'rgba(14,27,46,0.5)', marginTop: 4 }}>禁系统表 / DDL</Text>
+                    </Box>
+                    <Box style={{ flex: 1, background: 'rgba(47,93,158,0.07)', borderRadius: 8, padding: '11px 12px', flexDirection: 'column' }}>
+                        <Text style={{ fontSize: 12.5, fontWeight: 'bold', color: '#2F5D9E' }}>强制 LIMIT</Text>
+                        <Text style={{ fontSize: 11, color: 'rgba(14,27,46,0.5)', marginTop: 4 }}>兜底 200 行</Text>
+                    </Box>
+                </Box>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginTop: 'auto', paddingTop: 14 }}>
+                    <Box style={{ width: 3, height: 30, background: '#C8A24A' }} />
+                    <Text style={{ fontSize: 12.5, color: 'rgba(14,27,46,0.62)', lineHeight: 1.55 }}>
+                        实测 <span style={{ fontWeight: 'bold', color: '#0E1B2E' }}>DELETE FROM companies</span> 与 <span style={{ fontWeight: 'bold', color: '#0E1B2E' }}>SELECT * FROM mysql.user</span> 均被拦截；12 道指标题数值命中 100%。
+                    </Text>
+                </Box>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ height: 32, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)' }}>FinSight · 白酒行业智能投研</Text>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)', fontFamily: 'Consolas' }}>09 / 12</Text>
+    </Box>
+</Slide>

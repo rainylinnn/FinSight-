@@ -1,0 +1,771 @@
+{
+  "generated_at": "2026-10-19 17:42:01",
+  "out_dir": "C:\\pro\\data",
+  "companies": [
+    {
+      "code": "600519",
+      "name": "贵州茅台"
+    },
+    {
+      "code": "000858",
+      "name": "五粮液"
+    },
+    {
+      "code": "000568",
+      "name": "泸州老窖"
+    },
+    {
+      "code": "600809",
+      "name": "山西汾酒"
+    },
+    {
+      "code": "002304",
+      "name": "洋河股份"
+    },
+    {
+      "code": "000596",
+      "name": "古井贡酒"
+    },
+    {
+      "code": "603369",
+      "name": "今世缘"
+    },
+    {
+      "code": "603198",
+      "name": "迎驾贡酒"
+    },
+    {
+      "code": "000799",
+      "name": "酒鬼酒"
+    },
+    {
+      "code": "600779",
+      "name": "水井坊"
+    },
+    {
+      "code": "600702",
+      "name": "舍得酒业"
+    },
+    {
+      "code": "603589",
+      "name": "口子窖"
+    },
+    {
+      "code": "600559",
+      "name": "老白干酒"
+    },
+    {
+      "code": "600197",
+      "name": "伊力特"
+    },
+    {
+      "code": "603919",
+      "name": "金徽酒"
+    },
+    {
+      "code": "000860",
+      "name": "顺鑫农业"
+    },
+    {
+      "code": "002646",
+      "name": "天佑德酒"
+    },
+    {
+      "code": "600199",
+      "name": "金种子酒"
+    },
+    {
+      "code": "000995",
+      "name": "皇台酒业"
+    },
+    {
+      "code": "600696",
+      "name": "岩石股份"
+    }
+  ],
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "stats": {
+    "companies_ok": 20,
+    "companies_fail": 0,
+    "pdf_bytes": 174932074,
+    "pdf_count": 60
+  },
+  "annual_reports": [
+    {
+      "code": "600519",
+      "name": "贵州茅台",
+      "year": 2023,
+      "title": "贵州茅台2023年年度报告",
+      "announcement_date": "2024-04-03",
+      "announcement_id": "1219506510",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-03/1219506510.PDF",
+      "local_path": "raw/annual_reports/600519_贵州茅台/2023_600519_贵州茅台_1219506510.pdf",
+      "bytes": 3563819
+    },
+    {
+      "code": "600519",
+      "name": "贵州茅台",
+      "year": 2024,
+      "title": "贵州茅台2024年年度报告",
+      "announcement_date": "2025-04-03",
+      "announcement_id": "1222993920",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-03/1222993920.PDF",
+      "local_path": "raw/annual_reports/600519_贵州茅台/2024_600519_贵州茅台_1222993920.pdf",
+      "bytes": 3626217
+    },
+    {
+      "code": "600519",
+      "name": "贵州茅台",
+      "year": 2025,
+      "title": "贵州茅台2025年年度报告",
+      "announcement_date": "2026-04-17",
+      "announcement_id": "1225114741",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-17/1225114741.PDF",
+      "local_path": "raw/annual_reports/600519_贵州茅台/2025_600519_贵州茅台_1225114741.pdf",
+      "bytes": 1082847
+    },
+    {
+      "code": "000858",
+      "name": "五粮液",
+      "year": 2023,
+      "title": "2023年年度报告",
+      "announcement_date": "2024-04-29",
+      "announcement_id": "1219873658",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-29/1219873658.PDF",
+      "local_path": "raw/annual_reports/000858_五粮液/2023_000858_五粮液_1219873658.pdf",
+      "bytes": 4646198
+    },
+    {
+      "code": "000858",
+      "name": "五粮液",
+      "year": 2024,
+      "title": "2024年年度报告",
+      "announcement_date": "2025-04-26",
+      "announcement_id": "1223311527",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-26/1223311527.PDF",
+      "local_path": "raw/annual_reports/000858_五粮液/2024_000858_五粮液_1223311527.pdf",
+      "bytes": 7895552
+    },
+    {
+      "code": "000858",
+      "name": "五粮液",
+      "year": 2025,
+      "title": "2025年年度报告",
+      "announcement_date": "2026-04-30",
+      "announcement_id": "1225273091",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225273091.PDF",
+      "local_path": "raw/annual_reports/000858_五粮液/2025_000858_五粮液_1225273091.pdf",
+      "bytes": 3085658
+    },
+    {
+      "code": "000568",
+      "name": "泸州老窖",
+      "year": 2023,
+      "title": "2023年年度报告",
+      "announcement_date": "2024-04-27",
+      "announcement_id": "1219872991",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-27/1219872991.PDF",
+      "local_path": "raw/annual_reports/000568_泸州老窖/2023_000568_泸州老窖_1219872991.pdf",
+      "bytes": 5884756
+    },
+    {
+      "code": "000568",
+      "name": "泸州老窖",
+      "year": 2024,
+      "title": "2024年年度报告",
+      "announcement_date": "2025-04-28",
+      "announcement_id": "1223350383",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-28/1223350383.pdf",
+      "local_path": "raw/annual_reports/000568_泸州老窖/2024_000568_泸州老窖_1223350383.pdf",
+      "bytes": 2455650
+    },
+    {
+      "code": "000568",
+      "name": "泸州老窖",
+      "year": 2025,
+      "title": "2025年年度报告",
+      "announcement_date": "2026-04-29",
+      "announcement_id": "1225240660",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225240660.PDF",
+      "local_path": "raw/annual_reports/000568_泸州老窖/2025_000568_泸州老窖_1225240660.pdf",
+      "bytes": 2392572
+    },
+    {
+      "code": "600809",
+      "name": "山西汾酒",
+      "year": 2023,
+      "title": "2023年年度报告",
+      "announcement_date": "2024-04-26",
+      "announcement_id": "1219833278",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-26/1219833278.PDF",
+      "local_path": "raw/annual_reports/600809_山西汾酒/2023_600809_山西汾酒_1219833278.pdf",
+      "bytes": 5588640
+    },
+    {
+      "code": "600809",
+      "name": "山西汾酒",
+      "year": 2024,
+      "title": "2024年年度报告",
+      "announcement_date": "2025-04-30",
+      "announcement_id": "1223414537",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-30/1223414537.PDF",
+      "local_path": "raw/annual_reports/600809_山西汾酒/2024_600809_山西汾酒_1223414537.pdf",
+      "bytes": 1244593
+    },
+    {
+      "code": "600809",
+      "name": "山西汾酒",
+      "year": 2025,
+      "title": "2025年年度报告",
+      "announcement_date": "2026-04-23",
+      "announcement_id": "1225156714",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-23/1225156714.PDF",
+      "local_path": "raw/annual_reports/600809_山西汾酒/2025_600809_山西汾酒_1225156714.pdf",
+      "bytes": 1170640
+    },
+    {
+      "code": "002304",
+      "name": "洋河股份",
+      "year": 2023,
+      "title": "2023年年度报告",
+      "announcement_date": "2024-04-27",
+      "announcement_id": "1219873234",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-27/1219873234.PDF",
+      "local_path": "raw/annual_reports/002304_洋河股份/2023_002304_洋河股份_1219873234.pdf",
+      "bytes": 3317597
+    },
+    {
+      "code": "002304",
+      "name": "洋河股份",
+      "year": 2024,
+      "title": "2024年年度报告",
+      "announcement_date": "2025-04-29",
+      "announcement_id": "1223370519",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-29/1223370519.PDF",
+      "local_path": "raw/annual_reports/002304_洋河股份/2024_002304_洋河股份_1223370519.pdf",
+      "bytes": 4699879
+    },
+    {
+      "code": "002304",
+      "name": "洋河股份",
+      "year": 2025,
+      "title": "2025年年度报告",
+      "announcement_date": "2026-04-28",
+      "announcement_id": "1225219764",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-28/1225219764.PDF",
+      "local_path": "raw/annual_reports/002304_洋河股份/2025_002304_洋河股份_1225219764.pdf",
+      "bytes": 3708370
+    },
+    {
+      "code": "000596",
+      "name": "古井贡酒",
+      "year": 2023,
+      "title": "2023年年度报告",
+      "announcement_date": "2024-04-27",
+      "announcement_id": "1219873167",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-27/1219873167.PDF",
+      "local_path": "raw/annual_reports/000596_古井贡酒/2023_000596_古井贡酒_1219873167.pdf",
+      "bytes": 4632185
+    },
+    {
+      "code": "000596",
+      "name": "古井贡酒",
+      "year": 2024,
+      "title": "2024年年度报告",
+      "announcement_date": "2025-04-28",
+      "announcement_id": "1223320623",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-28/1223320623.PDF",
+      "local_path": "raw/annual_reports/000596_古井贡酒/2024_000596_古井贡酒_1223320623.pdf",
+      "bytes": 4427268
+    },
+    {
+      "code": "000596",
+      "name": "古井贡酒",
+      "year": 2025,
+      "title": "2025年年度报告",
+      "announcement_date": "2026-04-29",
+      "announcement_id": "1225237594",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225237594.PDF",
+      "local_path": "raw/annual_reports/000596_古井贡酒/2025_000596_古井贡酒_1225237594.pdf",
+      "bytes": 3943006
+    },
+    {
+      "code": "603369",
+      "name": "今世缘",
+      "year": 2023,
+      "title": "江苏今世缘酒业股份有限公司2023年年度报告",
+      "announcement_date": "2024-04-30",
+      "announcement_id": "1219917783",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-30/1219917783.PDF",
+      "local_path": "raw/annual_reports/603369_今世缘/2023_603369_今世缘_1219917783.pdf",
+      "bytes": 3986749
+    },
+    {
+      "code": "603369",
+      "name": "今世缘",
+      "year": 2024,
+      "title": "江苏今世缘酒业股份有限公司2024年年度报告",
+      "announcement_date": "2025-04-30",
+      "announcement_id": "1223416277",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-30/1223416277.PDF",
+      "local_path": "raw/annual_reports/603369_今世缘/2024_603369_今世缘_1223416277.pdf",
+      "bytes": 1403668
+    },
+    {
+      "code": "603369",
+      "name": "今世缘",
+      "year": 2025,
+      "title": "江苏今世缘酒业股份有限公司2025年年度报告",
+      "announcement_date": "2026-04-29",
+      "announcement_id": "1225245218",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225245218.PDF",
+      "local_path": "raw/annual_reports/603369_今世缘/2025_603369_今世缘_1225245218.pdf",
+      "bytes": 1288307
+    },
+    {
+      "code": "603198",
+      "name": "迎驾贡酒",
+      "year": 2023,
+      "title": "迎驾贡酒2023年年度报告",
+      "announcement_date": "2024-04-26",
+      "announcement_id": "1219834786",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-26/1219834786.PDF",
+      "local_path": "raw/annual_reports/603198_迎驾贡酒/2023_603198_迎驾贡酒_1219834786.pdf",
+      "bytes": 3766344
+    },
+    {
+      "code": "603198",
+      "name": "迎驾贡酒",
+      "year": 2024,
+      "title": "安徽迎驾贡酒股份有限公司2024年年度报告",
+      "announcement_date": "2025-04-29",
+      "announcement_id": "1223377012",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-29/1223377012.PDF",
+      "local_path": "raw/annual_reports/603198_迎驾贡酒/2024_603198_迎驾贡酒_1223377012.pdf",
+      "bytes": 1265442
+    },
+    {
+      "code": "603198",
+      "name": "迎驾贡酒",
+      "year": 2025,
+      "title": "迎驾贡酒2025年年度报告",
+      "announcement_date": "2026-04-23",
+      "announcement_id": "1225154253",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-23/1225154253.PDF",
+      "local_path": "raw/annual_reports/603198_迎驾贡酒/2025_603198_迎驾贡酒_1225154253.pdf",
+      "bytes": 1267375
+    },
+    {
+      "code": "000799",
+      "name": "酒鬼酒",
+      "year": 2023,
+      "title": "2023年年度报告",
+      "announcement_date": "2024-04-29",
+      "announcement_id": "1219867553",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-29/1219867553.PDF",
+      "local_path": "raw/annual_reports/000799_酒鬼酒/2023_000799_酒鬼酒_1219867553.pdf",
+      "bytes": 3139247
+    },
+    {
+      "code": "000799",
+      "name": "酒鬼酒",
+      "year": 2024,
+      "title": "2024年年度报告",
+      "announcement_date": "2025-04-29",
+      "announcement_id": "1223367569",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-29/1223367569.PDF",
+      "local_path": "raw/annual_reports/000799_酒鬼酒/2024_000799_酒鬼酒_1223367569.pdf",
+      "bytes": 2669916
+    },
+    {
+      "code": "000799",
+      "name": "酒鬼酒",
+      "year": 2025,
+      "title": "2025年年度报告",
+      "announcement_date": "2026-04-29",
+      "announcement_id": "1225230358",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225230358.PDF",
+      "local_path": "raw/annual_reports/000799_酒鬼酒/2025_000799_酒鬼酒_1225230358.pdf",
+      "bytes": 1152734
+    },
+    {
+      "code": "600779",
+      "name": "水井坊",
+      "year": 2023,
+      "title": "水井坊2023年度报告",
+      "announcement_date": "2024-04-27",
+      "announcement_id": "1219877097",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-27/1219877097.PDF",
+      "local_path": "raw/annual_reports/600779_水井坊/2023_600779_水井坊_1219877097.pdf",
+      "bytes": 4093098
+    },
+    {
+      "code": "600779",
+      "name": "水井坊",
+      "year": 2024,
+      "title": "水井坊2024年年度报告",
+      "announcement_date": "2025-04-30",
+      "announcement_id": "1223414387",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-30/1223414387.PDF",
+      "local_path": "raw/annual_reports/600779_水井坊/2024_600779_水井坊_1223414387.pdf",
+      "bytes": 1368394
+    },
+    {
+      "code": "600779",
+      "name": "水井坊",
+      "year": 2025,
+      "title": "水井坊2025年年度报告",
+      "announcement_date": "2026-04-30",
+      "announcement_id": "1225259544",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225259544.PDF",
+      "local_path": "raw/annual_reports/600779_水井坊/2025_600779_水井坊_1225259544.pdf",
+      "bytes": 2022193
+    },
+    {
+      "code": "600702",
+      "name": "舍得酒业",
+      "year": 2023,
+      "title": "舍得酒业2023年年度报告",
+      "announcement_date": "2024-03-20",
+      "announcement_id": "1219347680",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-03-20/1219347680.PDF",
+      "local_path": "raw/annual_reports/600702_舍得酒业/2023_600702_舍得酒业_1219347680.pdf",
+      "bytes": 4221556
+    },
+    {
+      "code": "600702",
+      "name": "舍得酒业",
+      "year": 2024,
+      "title": "舍得酒业2024年年度报告",
+      "announcement_date": "2025-03-22",
+      "announcement_id": "1222869176",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-03-22/1222869176.PDF",
+      "local_path": "raw/annual_reports/600702_舍得酒业/2024_600702_舍得酒业_1222869176.pdf",
+      "bytes": 4366401
+    },
+    {
+      "code": "600702",
+      "name": "舍得酒业",
+      "year": 2025,
+      "title": "舍得酒业2025年年度报告",
+      "announcement_date": "2026-03-21",
+      "announcement_id": "1225022707",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-03-21/1225022707.PDF",
+      "local_path": "raw/annual_reports/600702_舍得酒业/2025_600702_舍得酒业_1225022707.pdf",
+      "bytes": 1433482
+    },
+    {
+      "code": "603589",
+      "name": "口子窖",
+      "year": 2023,
+      "title": "安徽口子酒业股份有限公司2023年年度报告",
+      "announcement_date": "2024-04-30",
+      "announcement_id": "1219912125",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-30/1219912125.PDF",
+      "local_path": "raw/annual_reports/603589_口子窖/2023_603589_口子窖_1219912125.pdf",
+      "bytes": 3647231
+    },
+    {
+      "code": "603589",
+      "name": "口子窖",
+      "year": 2024,
+      "title": "安徽口子酒业股份有限公司2024年年度报告",
+      "announcement_date": "2025-04-29",
+      "announcement_id": "1223370055",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-29/1223370055.PDF",
+      "local_path": "raw/annual_reports/603589_口子窖/2024_603589_口子窖_1223370055.pdf",
+      "bytes": 1239854
+    },
+    {
+      "code": "603589",
+      "name": "口子窖",
+      "year": 2025,
+      "title": "安徽口子酒业股份有限公司2025年年度报告",
+      "announcement_date": "2026-04-23",
+      "announcement_id": "1225145285",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-23/1225145285.PDF",
+      "local_path": "raw/annual_reports/603589_口子窖/2025_603589_口子窖_1225145285.pdf",
+      "bytes": 1310917
+    },
+    {
+      "code": "600559",
+      "name": "老白干酒",
+      "year": 2023,
+      "title": "河北衡水老白干酒业股份有限公司2023年年度报告",
+      "announcement_date": "2024-04-27",
+      "announcement_id": "1219876009",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-27/1219876009.PDF",
+      "local_path": "raw/annual_reports/600559_老白干酒/2023_600559_老白干酒_1219876009.pdf",
+      "bytes": 4131799
+    },
+    {
+      "code": "600559",
+      "name": "老白干酒",
+      "year": 2024,
+      "title": "河北衡水老白干酒业股份有限公司2024年年度报告",
+      "announcement_date": "2025-04-26",
+      "announcement_id": "1223311221",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-26/1223311221.PDF",
+      "local_path": "raw/annual_reports/600559_老白干酒/2024_600559_老白干酒_1223311221.pdf",
+      "bytes": 3662349
+    },
+    {
+      "code": "600559",
+      "name": "老白干酒",
+      "year": 2025,
+      "title": "河北衡水老白干酒业股份有限公司2025年年度报告",
+      "announcement_date": "2026-04-23",
+      "announcement_id": "1225149959",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-23/1225149959.PDF",
+      "local_path": "raw/annual_reports/600559_老白干酒/2025_600559_老白干酒_1225149959.pdf",
+      "bytes": 1544568
+    },
+    {
+      "code": "600197",
+      "name": "伊力特",
+      "year": 2023,
+      "title": "新疆伊力特实业股份有限公司2023年年度报告",
+      "announcement_date": "2024-04-26",
+      "announcement_id": "1219823122",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-26/1219823122.PDF",
+      "local_path": "raw/annual_reports/600197_伊力特/2023_600197_伊力特_1219823122.pdf",
+      "bytes": 5344424
+    },
+    {
+      "code": "600197",
+      "name": "伊力特",
+      "year": 2024,
+      "title": "新疆伊力特实业股份有限公司2024年年度报告",
+      "announcement_date": "2025-04-29",
+      "announcement_id": "1223368119",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-29/1223368119.PDF",
+      "local_path": "raw/annual_reports/600197_伊力特/2024_600197_伊力特_1223368119.pdf",
+      "bytes": 1263837
+    },
+    {
+      "code": "600197",
+      "name": "伊力特",
+      "year": 2025,
+      "title": "新疆伊力特实业股份有限公司2025年年度报告",
+      "announcement_date": "2026-04-28",
+      "announcement_id": "1225221633",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-28/1225221633.PDF",
+      "local_path": "raw/annual_reports/600197_伊力特/2025_600197_伊力特_1225221633.pdf",
+      "bytes": 1317812
+    },
+    {
+      "code": "603919",
+      "name": "金徽酒",
+      "year": 2023,
+      "title": "金徽酒股份有限公司2023年年度报告",
+      "announcement_date": "2024-03-16",
+      "announcement_id": "1219314240",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-03-16/1219314240.PDF",
+      "local_path": "raw/annual_reports/603919_金徽酒/2023_603919_金徽酒_1219314240.pdf",
+      "bytes": 3699682
+    },
+    {
+      "code": "603919",
+      "name": "金徽酒",
+      "year": 2024,
+      "title": "金徽酒股份有限公司2024年年度报告",
+      "announcement_date": "2025-03-22",
+      "announcement_id": "1222870156",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-03-22/1222870156.PDF",
+      "local_path": "raw/annual_reports/603919_金徽酒/2024_603919_金徽酒_1222870156.pdf",
+      "bytes": 3822770
+    },
+    {
+      "code": "603919",
+      "name": "金徽酒",
+      "year": 2025,
+      "title": "金徽酒股份有限公司2025年年度报告",
+      "announcement_date": "2026-03-21",
+      "announcement_id": "1225023550",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-03-21/1225023550.PDF",
+      "local_path": "raw/annual_reports/603919_金徽酒/2025_603919_金徽酒_1225023550.pdf",
+      "bytes": 1416317
+    },
+    {
+      "code": "000860",
+      "name": "顺鑫农业",
+      "year": 2023,
+      "title": "2023年年度报告",
+      "announcement_date": "2024-04-27",
+      "announcement_id": "1219858135",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-27/1219858135.PDF",
+      "local_path": "raw/annual_reports/000860_顺鑫农业/2023_000860_顺鑫农业_1219858135.pdf",
+      "bytes": 1624518
+    },
+    {
+      "code": "000860",
+      "name": "顺鑫农业",
+      "year": 2024,
+      "title": "2024年年度报告",
+      "announcement_date": "2025-04-23",
+      "announcement_id": "1223217493",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-23/1223217493.PDF",
+      "local_path": "raw/annual_reports/000860_顺鑫农业/2024_000860_顺鑫农业_1223217493.pdf",
+      "bytes": 2115482
+    },
+    {
+      "code": "000860",
+      "name": "顺鑫农业",
+      "year": 2025,
+      "title": "2025年年度报告",
+      "announcement_date": "2026-04-29",
+      "announcement_id": "1225228541",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225228541.PDF",
+      "local_path": "raw/annual_reports/000860_顺鑫农业/2025_000860_顺鑫农业_1225228541.pdf",
+      "bytes": 2422410
+    },
+    {
+      "code": "002646",
+      "name": "天佑德酒",
+      "year": 2023,
+      "title": "2023年年度报告",
+      "announcement_date": "2024-04-19",
+      "announcement_id": "1219667599",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-19/1219667599.PDF",
+      "local_path": "raw/annual_reports/002646_天佑德酒/2023_002646_天佑德酒_1219667599.pdf",
+      "bytes": 6018904
+    },
+    {
+      "code": "002646",
+      "name": "天佑德酒",
+      "year": 2024,
+      "title": "2024年年度报告",
+      "announcement_date": "2025-04-23",
+      "announcement_id": "1223216499",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-23/1223216499.PDF",
+      "local_path": "raw/annual_reports/002646_天佑德酒/2024_002646_天佑德酒_1223216499.pdf",
+      "bytes": 5708746
+    },
+    {
+      "code": "002646",
+      "name": "天佑德酒",
+      "year": 2025,
+      "title": "2025年年度报告",
+      "announcement_date": "2026-04-28",
+      "announcement_id": "1225204450",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-28/1225204450.PDF",
+      "local_path": "raw/annual_reports/002646_天佑德酒/2025_002646_天佑德酒_1225204450.pdf",
+      "bytes": 3718462
+    },
+    {
+      "code": "600199",
+      "name": "金种子酒",
+      "year": 2023,
+      "title": "2023年年度报告",
+      "announcement_date": "2024-04-30",
+      "announcement_id": "1219921926",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-30/1219921926.PDF",
+      "local_path": "raw/annual_reports/600199_金种子酒/2023_600199_金种子酒_1219921926.pdf",
+      "bytes": 3840429
+    },
+    {
+      "code": "600199",
+      "name": "金种子酒",
+      "year": 2024,
+      "title": "2024年年度报告",
+      "announcement_date": "2025-04-29",
+      "announcement_id": "1223383407",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-29/1223383407.PDF",
+      "local_path": "raw/annual_reports/600199_金种子酒/2024_600199_金种子酒_1223383407.pdf",
+      "bytes": 1262706
+    },
+    {
+      "code": "600199",
+      "name": "金种子酒",
+      "year": 2025,
+      "title": "2025年年度报告",
+      "announcement_date": "2026-04-29",
+      "announcement_id": "1225245578",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-29/1225245578.PDF",
+      "local_path": "raw/annual_reports/600199_金种子酒/2025_600199_金种子酒_1225245578.pdf",
+      "bytes": 1220390
+    },
+    {
+      "code": "000995",
+      "name": "皇台酒业",
+      "year": 2023,
+      "title": "2023年年度报告",
+      "announcement_date": "2024-04-30",
+      "announcement_id": "1219924412",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-04-30/1219924412.PDF",
+      "local_path": "raw/annual_reports/000995_皇台酒业/2023_000995_皇台酒业_1219924412.pdf",
+      "bytes": 1638805
+    },
+    {
+      "code": "000995",
+      "name": "皇台酒业",
+      "year": 2024,
+      "title": "2024年年度报告",
+      "announcement_date": "2025-04-29",
+      "announcement_id": "1223374302",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-29/1223374302.PDF",
+      "local_path": "raw/annual_reports/000995_皇台酒业/2024_000995_皇台酒业_1223374302.pdf",
+      "bytes": 1499724
+    },
+    {
+      "code": "000995",
+      "name": "皇台酒业",
+      "year": 2025,
+      "title": "2025年年度报告",
+      "announcement_date": "2026-04-27",
+      "announcement_id": "1225182041",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-27/1225182041.PDF",
+      "local_path": "raw/annual_reports/000995_皇台酒业/2025_000995_皇台酒业_1225182041.pdf",
+      "bytes": 1576492
+    },
+    {
+      "code": "600696",
+      "name": "岩石股份",
+      "year": 2023,
+      "title": "中兴财光华会计师事务所(特殊普通合伙)关于公司2023年年度报告的信息披露监管工作函的回复",
+      "announcement_date": "2024-06-18",
+      "announcement_id": "1220377100",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2024-06-18/1220377100.PDF",
+      "local_path": "raw/annual_reports/600696_岩石股份/2023_600696_岩石股份_1220377100.pdf",
+      "bytes": 2310561
+    },
+    {
+      "code": "600696",
+      "name": "岩石股份",
+      "year": 2024,
+      "title": "2024年年度报告",
+      "announcement_date": "2025-04-22",
+      "announcement_id": "1223190013",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2025-04-22/1223190013.PDF",
+      "local_path": "raw/annual_reports/600696_岩石股份/2024_600696_岩石股份_1223190013.pdf",
+      "bytes": 1432098
+    },
+    {
+      "code": "600696",
+      "name": "岩石股份",
+      "year": 2025,
+      "title": "2025年度报告",
+      "announcement_date": "2026-04-30",
+      "announcement_id": "1225264273",
+      "pdf_url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225264273.PDF",
+      "local_path": "raw/annual_reports/600696_岩石股份/2025_600696_岩石股份_1225264273.pdf",
+      "bytes": 1330434
+    }
+  ],
+  "financial_rows": 60,
+  "holder_rows": 190,
+  "sources": {
+    "annual_reports": "http://www.cninfo.com.cn (巨潮资讯网)",
+    "financial_indicators": "http://datacenter-web.eastmoney.com (东方财富)",
+    "holders": "http://datacenter-web.eastmoney.com (东方财富)"
+  },
+  "notes": [
+    "仅用 HTTP 接口下载；HTTPS 在下载环境被限制。",
+    "PDF 已做 %PDF 头校验；重复运行会跳过已下载文件（断点续传）。",
+    "数据仅用于学习/研究/演示，请勿再分发。"
+  ]
+}

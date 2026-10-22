@@ -1,0 +1,63 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F5F1E8',
+    padding: '0 72px',
+    flexDirection: 'row',
+}}>
+    <Box style={{
+        width: 306,
+        flexDirection: 'column',
+        justifyContent: 'center',
+        borderRight: '1px solid rgba(14,27,46,0.14)',
+    }}>
+        <Text style={{ fontSize: 12, letterSpacing: 6, color: '#2F5D9E', fontWeight: 'bold' }}>
+            CONTENTS
+        </Text>
+        <Text style={{ fontSize: 68, fontWeight: 'bold', color: '#0E1B2E', marginTop: 18, lineHeight: 1.1 }}>
+            目录
+        </Text>
+        <Box style={{ width: 54, height: 2, background: '#C8A24A', marginTop: 24 }} />
+        <Text style={{ fontSize: 13, color: 'rgba(14,27,46,0.45)', marginTop: 20, lineHeight: 1.7 }}>
+            两章　·　12 页
+        </Text>
+    </Box>
+
+    <Box style={{ flex: 1, flexDirection: 'column', justifyContent: 'center', paddingLeft: 62, gap: 44 }}>
+        <Box style={{ flexDirection: 'row', gap: 28, alignItems: 'flex-start' }}>
+            <Text style={{ fontSize: 46, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas', lineHeight: 1, width: 74 }}>
+                01
+            </Text>
+            <Box style={{ flex: 1, flexDirection: 'column' }}>
+                <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#0E1B2E' }}>
+                    一个入口，三条链路
+                </Text>
+                <Text style={{ fontSize: 16, color: 'rgba(14,27,46,0.62)', marginTop: 10, lineHeight: 1.65 }}>
+                    把散落在 60 份年报里的原文、指标、股东关系，收进同一个对话框。
+                </Text>
+                <Text style={{ fontSize: 14, color: 'rgba(14,27,46,0.42)', marginTop: 8 }}>
+                    系统自己判断该查哪里 —— P03–P06
+                </Text>
+            </Box>
+        </Box>
+
+        <Box style={{ height: 1, background: 'rgba(14,27,46,0.10)' }} />
+
+        <Box style={{ flexDirection: 'row', gap: 28, alignItems: 'flex-start' }}>
+            <Text style={{ fontSize: 46, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas', lineHeight: 1, width: 74 }}>
+                02
+            </Text>
+            <Box style={{ flex: 1, flexDirection: 'column' }}>
+                <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#0E1B2E' }}>
+                    让它准起来，也让它说实话
+                </Text>
+                <Text style={{ fontSize: 16, color: 'rgba(14,27,46,0.62)', marginTop: 10, lineHeight: 1.65 }}>
+                    检索怎么补、SQL 怎么管、效果怎么量，以及四次把系统拉回正轨的返工。
+                </Text>
+                <Text style={{ fontSize: 14, color: 'rgba(14,27,46,0.42)', marginTop: 8 }}>
+                    评测与取舍 —— P07–P11
+                </Text>
+            </Box>
+        </Box>
+    </Box>
+</Slide>

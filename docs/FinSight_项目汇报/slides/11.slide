@@ -1,0 +1,103 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F5F1E8',
+    padding: '30px 72px 18px',
+    flexDirection: 'column',
+}}>
+    <Box style={{ flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'space-between', height: 76 }}>
+        <Box style={{ flexDirection: 'column' }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0E1B2E' }}>
+                四次返工，都不是模型不行
+            </Text>
+            <Text style={{ fontSize: 15, color: 'rgba(14,27,46,0.55)', marginTop: 8 }}>
+                复用旧项目的代价：上下文污染，而不是能力不足
+            </Text>
+        </Box>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)', letterSpacing: 2 }}>
+            06 / 踩坑
+        </Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', gap: 14, marginTop: 24, flex: 1 }}>
+        <Box style={{ flex: 1, background: '#FFFFFF', borderRadius: 12, padding: '18px 16px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column' }}>
+            <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas', lineHeight: 1 }}>01</Text>
+            <Text style={{ fontSize: 13.5, fontWeight: 'bold', color: '#0E1B2E', marginTop: 12, lineHeight: 1.5 }}>
+                用「CSS 样式修改」回答白酒问题
+            </Text>
+            <Box style={{ height: 1, background: 'rgba(14,27,46,0.09)', margin: '12px 0' }} />
+            <Text style={{ fontSize: 11.5, color: 'rgba(14,27,46,0.5)', lineHeight: 1.65 }}>
+                共享 Redis 里残留旧项目的教育客服题库，快路径直接命中。
+            </Text>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginTop: 'auto', paddingTop: 12 }}>
+                <Text style={{ fontSize: 10, color: '#2F5D9E', fontWeight: 'bold' }}>改法</Text>
+                <Text style={{ fontSize: 11.5, color: 'rgba(14,27,46,0.72)', flex: 1 }}>
+                    关闭 FAQ 快路径
+                </Text>
+            </Box>
+        </Box>
+
+        <Box style={{ flex: 1, background: '#FFFFFF', borderRadius: 12, padding: '18px 16px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column' }}>
+            <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas', lineHeight: 1 }}>02</Text>
+            <Text style={{ fontSize: 13.5, fontWeight: 'bold', color: '#0E1B2E', marginTop: 12, lineHeight: 1.5 }}>
+                文档题永远不检索
+            </Text>
+            <Box style={{ height: 1, background: 'rgba(14,27,46,0.09)', margin: '12px 0' }} />
+            <Text style={{ fontSize: 11.5, color: 'rgba(14,27,46,0.5)', lineHeight: 1.65 }}>
+                旧 BERT 分类器把「年报里提到了什么」判为通用知识，直接交给模型编。
+            </Text>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginTop: 'auto', paddingTop: 12 }}>
+                <Text style={{ fontSize: 10, color: '#2F5D9E', fontWeight: 'bold' }}>改法</Text>
+                <Text style={{ fontSize: 11.5, color: 'rgba(14,27,46,0.72)', flex: 1 }}>
+                    强制检索开关
+                </Text>
+            </Box>
+        </Box>
+
+        <Box style={{ flex: 1, background: '#FFFFFF', borderRadius: 12, padding: '18px 16px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column' }}>
+            <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas', lineHeight: 1 }}>03</Text>
+            <Text style={{ fontSize: 13.5, fontWeight: 'bold', color: '#0E1B2E', marginTop: 12, lineHeight: 1.5 }}>
+                关键词召回不到
+            </Text>
+            <Box style={{ height: 1, background: 'rgba(14,27,46,0.09)', margin: '12px 0' }} />
+            <Text style={{ fontSize: 11.5, color: 'rgba(14,27,46,0.5)', lineHeight: 1.65 }}>
+                「渠道库存」「经营风险」这类词，向量空间里找不到对应段落。
+            </Text>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginTop: 'auto', paddingTop: 12 }}>
+                <Text style={{ fontSize: 10, color: '#2F5D9E', fontWeight: 'bold' }}>改法</Text>
+                <Text style={{ fontSize: 11.5, color: 'rgba(14,27,46,0.72)', flex: 1 }}>
+                    BM25 + RRF 融合
+                </Text>
+            </Box>
+        </Box>
+
+        <Box style={{ flex: 1, background: '#FFFFFF', borderRadius: 12, padding: '18px 16px', border: '1px solid rgba(14,27,46,0.10)', flexDirection: 'column' }}>
+            <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#C8A24A', fontFamily: 'Consolas', lineHeight: 1 }}>04</Text>
+            <Text style={{ fontSize: 13.5, fontWeight: 'bold', color: '#0E1B2E', marginTop: 12, lineHeight: 1.5 }}>
+                引用翻到隔壁章节
+            </Text>
+            <Box style={{ height: 1, background: 'rgba(14,27,46,0.09)', margin: '12px 0' }} />
+            <Text style={{ fontSize: 11.5, color: 'rgba(14,27,46,0.5)', lineHeight: 1.65 }}>
+                年报「一页拆多节」，父窗口起止跨了章节，页码对不上。
+            </Text>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginTop: 'auto', paddingTop: 12 }}>
+                <Text style={{ fontSize: 10, color: '#2F5D9E', fontWeight: 'bold' }}>改法</Text>
+                <Text style={{ fontSize: 11.5, color: 'rgba(14,27,46,0.72)', flex: 1 }}>
+                    命中时回退子块
+                </Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12, marginTop: 20 }}>
+        <Box style={{ width: 3, height: 32, background: '#C8A24A' }} />
+        <Text style={{ fontSize: 13.5, color: 'rgba(14,27,46,0.62)', lineHeight: 1.6 }}>
+            四次故障的共同点：都不是推理能力问题，而是「以为在复用，实际在继承别人的上下文」。
+        </Text>
+    </Box>
+
+    <Box style={{ height: 32, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)' }}>FinSight · 白酒行业智能投研</Text>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)', fontFamily: 'Consolas' }}>11 / 12</Text>
+    </Box>
+</Slide>

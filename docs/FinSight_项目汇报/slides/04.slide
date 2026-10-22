@@ -1,0 +1,142 @@
+<Slide style={{
+    width: 1280,
+    height: 720,
+    background: '#F5F1E8',
+    padding: '30px 72px 18px',
+    flexDirection: 'column',
+}}>
+    <Box style={{ flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'space-between', height: 76 }}>
+        <Box style={{ flexDirection: 'column' }}>
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#0E1B2E' }}>
+                从两天到八秒
+            </Text>
+            <Text style={{ fontSize: 15, color: 'rgba(14,27,46,0.55)', marginTop: 8 }}>
+                瓶颈不是找不到文件，是找不到那句话在第几页
+            </Text>
+        </Box>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)', letterSpacing: 2 }}>
+            01 / 四条链路
+        </Text>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', gap: 36, marginTop: 26, flex: 1 }}>
+        <Box style={{ width: 706, flexDirection: 'column', gap: 20 }}>
+            <Box style={{
+                background: 'rgba(14,27,46,0.045)',
+                borderRadius: 14,
+                padding: '20px 22px 22px',
+                flexDirection: 'column',
+                border: '1px solid rgba(14,27,46,0.08)',
+            }}>
+                <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' }}>
+                    <Text style={{ fontSize: 15, fontWeight: 'bold', color: 'rgba(14,27,46,0.72)' }}>
+                        人工做法
+                    </Text>
+                    <Text style={{ fontSize: 28, fontWeight: 'bold', color: 'rgba(14,27,46,0.34)', fontFamily: 'Consolas' }}>
+                        2 天
+                    </Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 9, marginTop: 16, alignItems: 'center' }}>
+                    <Box style={{ flex: 1, background: '#F5F1E8', borderRadius: 8, padding: '11px 6px', alignItems: 'center' }}>
+                        <Text style={{ fontSize: 12.5, color: 'rgba(14,27,46,0.66)' }}>翻 60 份 PDF</Text>
+                    </Box>
+                    <Text style={{ fontSize: 13, color: 'rgba(14,27,46,0.28)' }}>›</Text>
+                    <Box style={{ flex: 1, background: '#F5F1E8', borderRadius: 8, padding: '11px 6px', alignItems: 'center' }}>
+                        <Text style={{ fontSize: 12.5, color: 'rgba(14,27,46,0.66)' }}>定位章节</Text>
+                    </Box>
+                    <Text style={{ fontSize: 13, color: 'rgba(14,27,46,0.28)' }}>›</Text>
+                    <Box style={{ flex: 1, background: '#F5F1E8', borderRadius: 8, padding: '11px 6px', alignItems: 'center' }}>
+                        <Text style={{ fontSize: 12.5, color: 'rgba(14,27,46,0.66)' }}>抄数字</Text>
+                    </Box>
+                    <Text style={{ fontSize: 13, color: 'rgba(14,27,46,0.28)' }}>›</Text>
+                    <Box style={{ flex: 1, background: '#F5F1E8', borderRadius: 8, padding: '11px 6px', alignItems: 'center' }}>
+                        <Text style={{ fontSize: 12.5, color: 'rgba(14,27,46,0.66)' }}>核对口径</Text>
+                    </Box>
+                </Box>
+            </Box>
+
+            <Box style={{
+                background: 'rgba(47,93,158,0.07)',
+                borderRadius: 14,
+                padding: '20px 22px 22px',
+                flexDirection: 'column',
+                border: '1px solid rgba(47,93,158,0.18)',
+            }}>
+                <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' }}>
+                    <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#2F5D9E' }}>
+                        系统做法
+                    </Text>
+                    <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#0E1B2E', fontFamily: 'Consolas' }}>
+                        8 秒
+                    </Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 9, marginTop: 16, alignItems: 'center' }}>
+                    <Box style={{ flex: 1, background: '#FFFFFF', borderRadius: 8, padding: '11px 6px', alignItems: 'center', border: '1px solid rgba(47,93,158,0.14)' }}>
+                        <Text style={{ fontSize: 12.5, color: '#0E1B2E' }}>一句话提问</Text>
+                    </Box>
+                    <Text style={{ fontSize: 13, color: 'rgba(47,93,158,0.4)' }}>›</Text>
+                    <Box style={{ flex: 1, background: '#FFFFFF', borderRadius: 8, padding: '11px 6px', alignItems: 'center', border: '1px solid rgba(47,93,158,0.14)' }}>
+                        <Text style={{ fontSize: 12.5, color: '#0E1B2E' }}>意图路由</Text>
+                    </Box>
+                    <Text style={{ fontSize: 13, color: 'rgba(47,93,158,0.4)' }}>›</Text>
+                    <Box style={{ flex: 1, background: '#FFFFFF', borderRadius: 8, padding: '11px 6px', alignItems: 'center', border: '1px solid rgba(47,93,158,0.14)' }}>
+                        <Text style={{ fontSize: 12.5, color: '#0E1B2E' }}>检索 / 计算</Text>
+                    </Box>
+                    <Text style={{ fontSize: 13, color: 'rgba(47,93,158,0.4)' }}>›</Text>
+                    <Box style={{ flex: 1, background: '#0E1B2E', borderRadius: 8, padding: '11px 6px', alignItems: 'center' }}>
+                        <Text style={{ fontSize: 12.5, color: '#C8A24A' }}>带页码答案</Text>
+                    </Box>
+                </Box>
+            </Box>
+
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12, marginTop: 4 }}>
+                <Box style={{ width: 3, height: 34, background: '#C8A24A' }} />
+                <Text style={{ fontSize: 14.5, color: 'rgba(14,27,46,0.62)', lineHeight: 1.6, width: 680 }}>
+                    省下的不是翻页时间，是「同一口径下横向对比 20 家」这件事从不可能变成默认动作。
+                </Text>
+            </Box>
+        </Box>
+
+        <Box style={{ flex: 1, flexDirection: 'column' }}>
+            <Text style={{ fontSize: 12, letterSpacing: 3, color: '#2F5D9E', fontWeight: 'bold' }}>
+                三类高频问题
+            </Text>
+            <Box style={{ flexDirection: 'column', gap: 18, marginTop: 20 }}>
+                <Box style={{ flexDirection: 'column' }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 8 }}>
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E1B2E' }}>原文解释</Text>
+                        <Text style={{ fontSize: 11, color: '#C8A24A', fontFamily: 'Consolas' }}>RAG</Text>
+                    </Box>
+                    <Text style={{ fontSize: 13.5, color: 'rgba(14,27,46,0.58)', marginTop: 6, lineHeight: 1.6 }}>
+                        年报里提了哪些经营风险？—— 要原文，还要页码。
+                    </Text>
+                </Box>
+                <Box style={{ height: 1, background: 'rgba(14,27,46,0.08)' }} />
+                <Box style={{ flexDirection: 'column' }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 8 }}>
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E1B2E' }}>指标计算</Text>
+                        <Text style={{ fontSize: 11, color: '#C8A24A', fontFamily: 'Consolas' }}>SQL</Text>
+                    </Box>
+                    <Text style={{ fontSize: 13.5, color: 'rgba(14,27,46,0.58)', marginTop: 6, lineHeight: 1.6 }}>
+                        营收、毛利率、ROE、连续三年趋势 —— 要准确数字，不要接近。
+                    </Text>
+                </Box>
+                <Box style={{ height: 1, background: 'rgba(14,27,46,0.08)' }} />
+                <Box style={{ flexDirection: 'column' }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 8 }}>
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E1B2E' }}>跨公司横比</Text>
+                        <Text style={{ fontSize: 11, color: '#C8A24A', fontFamily: 'Consolas' }}>SQL+</Text>
+                    </Box>
+                    <Text style={{ fontSize: 13.5, color: 'rgba(14,27,46,0.58)', marginTop: 6, lineHeight: 1.6 }}>
+                        20 家里谁的下滑最快？—— 一次成表，而不是开 20 个窗口。
+                    </Text>
+                </Box>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ height: 32, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)' }}>FinSight · 白酒行业智能投研</Text>
+        <Text style={{ fontSize: 12, color: 'rgba(14,27,46,0.34)', fontFamily: 'Consolas' }}>04 / 12</Text>
+    </Box>
+</Slide>
